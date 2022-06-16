@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar img{
+    margin-right: 2rem;
+    padding:0;
+    width:10rem;
+}
+.navbar-nav li a {
+    margin:0 10px;
+    font-weight:bold;font-size:20px;  
+    color:#FFF; 
+}
+.navbar-nav a:hover {
+    font-size: 20px; 
+    font-weight:800;
+    color:#FFF;
+}
+.navbar .log{
+  padding: 8px 20px;
+  color:#FFF;  
+  background-color: #000000;
+  line-height:1 !important;
+}
+.navbar .log span{
+  font-weight:normal ;font-size:20px;  
+  color:#FFF;
+}
+.navbar .bell{
+font-size: 30px;
+color:#FFF;  
+line-height:1 !important;
+border-width:0;
+padding:0;
+background-color:transparent; 
+  margin:0 10px 0 0;
+}
+
+.navbar-nav .nav-link.active{
+    border-bottom: 3px solid black;
+  
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 30px;
+    background-color: #e9e3e1;
+    width: 100%;
+}
+.main-container-element{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.main-container-element-head-section{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container-element-heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.profile-info-edit-icon{
+    width: 50px;
+    font-size: 0.9rem;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.main-container-element-logo{
+    display: flex;
+    justify-content: center;
+}
+.main-container-element-logo-image{
+    margin-top: 20px;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.main-container-element-footer{
+    margin-top: 20px;
+}
+.main-container-element-footer-heading{
+    margin-top: 10px;
+    font-size: 1.3rem;
+    border-top: 1px solid #A9A9A9;
+    font-weight: 500;
+}
+.main-container-element-footer-para{
+    color: #A9A9A9;
+    margin-bottom: 5px;
+}
+.main-container-element-footer-para-comp{
+    color: #A9A9A9;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+/* FOOTER SECTION */
+.footer-section li a{
+	color:#FFF;
+	text-decoration:none;
+}
+.footer-section li{
+	margin-top:10px;	
+}
+.footer-section .container{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.footer-section{
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+}
+
+/* MEDIA QUERY OF FOOTER SECTION */
+@media(max-width : 1440px) { .footer-logo img {
+    width: 15rem;
+    margin-top: 10px;
+}
+}
+@media(max-width : 880px) { .footer-logo img {
+    width: 12rem;
+    margin-top: 20px;
+}
+}
+@media(max-width : 700px) { .footer-logo img {
+    width: 9rem;
+   
+}
+}
+@media(max-width : 600px) { .footer-logo img {
+    width: 5rem;
+    
+}
+}
+
+@media(max-width : 880px) { .footer-text a {
+    font-size: 14px;
+}
+}
+@media(max-width : 600px) { 
+    .footer-text a {
+        font-size: 10px;
+    }
+}
